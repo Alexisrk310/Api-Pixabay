@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Sriracha', cursive;
+}
+.buscador{
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    outline: none;
+    padding-left: 8px;
+}
+.enviar{
+    padding: 3px 16px;
+    margin-left: 8px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    outline: none;
+    background-color: #008891;
+    border: 2px solid #435560;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photo-img{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+.form{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #e48900;
+    height: 55px;
+    align-items: center;
+}
+/* JS */
+.correcto{
+    background-color: #00af91;
+}
+.incorrecto{
+    background-color: #ef4f4f;
+}
